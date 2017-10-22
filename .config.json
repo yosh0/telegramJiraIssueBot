@@ -1,0 +1,52 @@
+{
+  "Serv" : {
+    "Token" : "",
+    "Debug" : true
+  },
+  "Log" : {
+    "Dir" : "/var/log/",
+    "File" : "TelegramIssueBot_log"
+  },
+  "DB" : {
+    "Host" : "dbhost",
+    "Port" : "dbport",
+    "Name" : "dbname",
+    "User" : "dbuser",
+    "Pass" : "dbpass",
+    "SSL" : "enable or disable",
+    "Type" : "dbtype"
+  },
+  "StartMsg" : {
+    "Contact" : "Для авторизации отправь контакт!",
+    "Command" : "Команды через '/' не используются!"
+  },
+  "KbBtnText" : {
+    "Auth" : "Авторизоваться",
+    "CreateIssue" : "Создать задачу"
+  },
+  "BotMessage" : {
+    "NeedAuth" : "Я тебя не знаю!\nНеобходима авторизация",
+    "KnownUser" : "Я тебя знаю!\nТы '%s'\nТы можешь создать задачу по кнопке 'Создать задачу'",
+    "ContactNotOwn" : "Это не твой контакт",
+    "IssueAbout" : "Опиши проблему",
+    "IssueTimeout" : "Таймаут на создание следующей задачи",
+    "IssueLimit" : "Лимит на создание задач",
+    "IssueError" : "Ошибка создания задачи",
+    "IssueCreate" : "Задача создана",
+    "IssueLess" : "Опиши проблему более подробно"
+  },
+  "JiraIssue" : {
+    "Project" : "OFFICE",
+    "TypeID" : "10402",
+    "Summary" : "Запрос от Telegram Бота",
+    "UrlUser" : "user",
+    "UrlPass" : "pass",
+    "UrlScheme" : "http",
+    "UrlHost" : "host",
+    "UrlPathUserSearch" : "/jira7/rest/api/2/groupuserpicker",
+    "UrlPathCreateIssue" : "/jira7/rest/api/2/issue/",
+    "Limit" : 1,
+    "Timeout" : 300,
+    "DescLen" : 10
+  }
+}
